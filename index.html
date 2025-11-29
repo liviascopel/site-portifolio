@@ -5,12 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
   </head>
 
+<<<<<<< HEAD
   <body class="m-10">
+=======
+  <body class="m-10 bg-gray-600 text-white">
+>>>>>>> eb7b1a29c9089e6d50819ac2abe2f53d15324055
     
     <section>
-        <li class="flex justify-between ">
+        <li class="flex justify-between">
             <ul>Sobre</ul>
             <ul>Experiências profissionais</ul>
             <ul>Cursos</ul>
@@ -57,26 +65,51 @@
 
     <section>
         <h1 class="text-xl">Experiência profissional</h1>
+
+        <div class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3 lg:gap-8">
+            <div class="flex items-center justify-center rounded-md bg-blue-500 p-4">
+                Time de Robótica
+            </div>
+
+            <div class="flex items-center justify-center rounded-md bg-blue-500 p-4">
+                Desenvolvedora Web
+            </div>
+
+            <div class="flex items-center justify-center rounded-md bg-blue-500 p-4">
+                Curso de introdução à Computação
+            </div>
+
+            <div class="flex items-center justify-center rounded-md bg-blue-500 p-4">
+                QA | Desenvolvedora Backend
+            </div>
+        </div>
     </section>
 
     <section>
         <h1 class="text-xl">Cursos</h1>
+        <div class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3 lg:gap-8">
+            <div class="flex items-center justify-center rounded-md bg-blue-500 p-4">
+                CS50 Harvard
+            </div>
+
+            <div class="flex items-center justify-center rounded-md bg-blue-500 p-4">
+                C++ Intermediário
+            </div>
+
+            <div class="flex items-center justify-center rounded-md bg-blue-500 p-4">
+                Introdução à Ciência da Computação
+            </div>
+
+            <div class="flex items-center justify-center rounded-md bg-blue-500 p-4">
+                Games in JS (cursando)
+            </div>
+        </div>
     </section>
 
     <section>
         <h1 class="text-xl">Contato</h1>
-        
-        <a 
-            href="mailto:seuemail@exemplo.com"
-            class="
-                hover:text-shadow-white-glow
-            "
-            >
-            <img 
-                src="src/mail.svg" 
-                alt="Ícone de E-mail"
-                class="h-6 w-6 text-white"
-            >
+        <a>
+            <img class="w-20 h-20 hover:blur-sm" src="./src/mail.svg"></img>
         </a>
     </section>
 
